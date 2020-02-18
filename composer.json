@@ -1,0 +1,33 @@
+{
+    "name": "mohkoma/nova-multiselect-checkboxes",
+    "description": "A Laravel Nova Multiselect Implementation.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "multiselect",
+        "checkboxes",
+        "dropdown"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "mohkoma/nova-multiselect-checkboxes": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nova\\MultiselectCheckboxes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nova\\MultiselectCheckboxes\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
