@@ -27,7 +27,7 @@ use Nova\MultiselectCheckboxes\MultiselectCheckboxes;
 ->options($this->{FIELD_NAME}->pluck('name', 'id'), [23, 34, 66, 76])
 ```
 
-You able to set a placeholder for the field using `placeholder()` function.
+You're able to set a placeholder for the field using `placeholder()` function.
 
 
 Sometimes you might need to return the value of the unselected options, for that you can use `returnUnchecked()` function.
